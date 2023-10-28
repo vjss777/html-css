@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        section{
+            background-color: white;
+            border-radius: 10px;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            Color: black;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Formulário</h1>
+        <form action="cadastro.php" method="POST" autocomplete="off">
+       <label for="inome">
+        <p>Nome:</p>
+       </label>
+       <input type="text" name="nome" id="inome">
+       <label for="isobrenome">
+        <p>Sobrenome:</p>
+       </label>
+       <input type="text" name="sobrenome" id="isobrenome"> <br>
+       <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>

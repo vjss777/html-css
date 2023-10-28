@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+h1#Thtml{
+    color: pink;
+}
+h1#Tcss{
+    color: green;
+}
+p#p1{
+    color:blueviolet;
+}
+p#p2{
+    color: brown;
+}
+.frutasamarelas{
+    background-color: rgb(219, 190, 0);
+    color: white;
+}
+.frutasvermelhas{
+    background-color: rgb(255, 0, 60);
+    color: white;
+}
+.frutasverdes{
+    background-color: rgb(15, 145, 0);
+    color: white;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+}
+a:visited{
+    color: rgb(255, 5, 5);
+}
+a:hover{
+    text-decoration:underline;
+    background-color: rgb(183, 255, 0)
+}
+.especial{
+    font-weight: bolder;
+}
+.especial:visited{
+    color: rgb(183, 0, 255);
+}
+.especial:hover{
+    text-decoration: underline;
+    background-color: rgb(0, 255, 229);
+}

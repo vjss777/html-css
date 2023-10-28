@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela(de novo)</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 350px;
+
+        }
+        caption{
+            padding: 10px;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        thead th{
+            background-color: grey;
+            color: white;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: red;
+            color: white;
+        }
+        col.cgrupo{
+            background-color: rgb(255, 0, 43);
+          
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Vitor Jorge</td>
+                <td>M</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

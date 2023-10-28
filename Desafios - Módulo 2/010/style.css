@@ -1,0 +1,167 @@
+@charset "UTF-8";
+*{margin: 0px;
+padding:0px;
+}
+@font-face {
+    font-family: Android;
+    src: url(./fontes/idroid.otf) format(opentype);
+}
+body{
+    background-color: #84E1AD;
+    text-align: justify;
+}
+header{
+    background-image: linear-gradient(to top, #195634, #25824E, #83E0AC);
+    padding-top: 50px;
+    min-height: 150px;
+    margin: auto;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.663);
+}
+header > h1{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 65px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+header > p{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.663);
+}
+
+nav{
+    min-width: 480px;
+    padding:10px;
+    background-color: #195735;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.663);
+}
+nav > a{
+    font: normal bolder "Work Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    font-weight: bolder;
+    color:#195634;
+    background-color: white;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    padding: 18px;
+    padding-top: 0px;
+    text-align: justify;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.663);
+}
+main img{
+    width: 100%
+}
+main img.pequena{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family: "Android";
+    color:#1A5A36;
+    font-size: 2em;
+    text-align: center;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+picture{
+    margin: auto;
+}
+h2.destaque{
+    font: normal normal 2em "Android" ;
+    color: #1A5A36;
+    background-image: linear-gradient(to right, #a4fecb, #96ffc433);
+    margin-bottom: 10px;
+    text-align: left;
+}
+aside{
+    background-color: #C5EBD6;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.663);
+}
+aside > h1{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: -10px -10px 0px -10px;
+    padding: 10px 0px;;
+    text-indent: 15px;
+    text-align: left;
+    background-color:#2FA866;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.663);
+}
+aside > p{
+    font-size: 14px;
+    text-indent: 8px;
+    padding-top: 10px;
+}
+aside > ul{
+    text-align: left;
+    columns: 2;
+    list-style-type: "\2714\00A0\00A0";
+    list-style-position: inside;
+}
+p#pafinal{
+    margin-top: 15px;
+}
+footer{
+    background-color: #195634;
+    color: white;
+}
+footer > p{
+    margin: 20px auto 0px auto;
+    padding-bottom: 5px;
+    text-align: center;
+}
+a{text-decoration: none;
+  color:#195634;
+  font-weight: bolder;  
+
+}
+a:hover{text-decoration: none;
+    color:#195634;
+    background-color:#83E0AC;
+    font-weight: bolder;  
+  }
+  a:visited{text-decoration: underline;
+}
+div.videodroid{
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 58%;
+    position: relative;
+    background-color: #195634;
+}
+div.videodroid > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

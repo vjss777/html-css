@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    text-align: center;
+    background-color: rgb(74, 255, 74);
+}
+li{
+    list-style-position: inside;
+}
+p{
+    color: rgb(0, 73, 0);
+}
+h1{
+    color: rgb(0, 73, 0);
+}

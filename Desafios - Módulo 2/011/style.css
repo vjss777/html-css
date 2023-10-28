@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+*{margin: 0px;
+padding: 0px;}
+
+html, body{
+    min-height: 100vh;
+    background-color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 250px;  
+    
+}
+header h1{ 
+    font-family: 'Passion One', sans-serif;
+    padding-top: 50px;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+header p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+div{
+    font-family: 'Sriracha', cursive;
+    text-indent: 20px;
+    font-size: 4.5vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 20px;
+    line-height: 1em;
+    text-shadow: 1px 1px 0px black;
+}
+
+div.fundobranco{
+    background-color: white;
+}
+div.letrabranca{
+    color:white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.518);
+}
+div#q2{
+    background-image: url("./imagens/background001.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div#q5{
+    background-image: url("./imagens/background002.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+span{
+    background-color: rgba(0, 0, 0, 0.704);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    padding: 5px;
+}
+footer p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+

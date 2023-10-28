@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+div.destaque{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+}
+div#q1{
+    background-color: rgb(175, 135, 235);
+}
+div#q2{
+    background-image: linear-gradient(to bottom, rgb(0, 255, 102), rgb(13, 0, 255));
+}
+div#q3{
+    background-image: url("/html-css-master/exercicios/modulo-03/ex022/imagens/pattern001.png");
+}

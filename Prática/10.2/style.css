@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    /*height: 100vh;
+    background-color: black;
+    background-image: url("/html-css-master/exercicios/modulo-03/ex022/imagens/wallpaper002.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    background: black url("/html-css-master/exercicios/modulo-03/ex022/imagens/wallpaper002.jpg") no-repeat fixed center top / cover;
+
+}
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid rgb(255, 0, 149);
+    border-radius: 15px;
+}

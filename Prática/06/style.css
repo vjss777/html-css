@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+    h1{
+        background-color: purple;
+        height: 300px;
+        width:300px;
+        border-style: solid;
+        border-width: 15px;
+        border-color: greenyellow;
+        margin-bottom: 10px;
+        outline-width: 10px;
+        outline-color: red;
+        outline-style: solid;
+    }
+    a{
+        background-color: pink;
+        border-style: groove;
+        border-width: 35px;
+        border-color: red;
+    }

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    border: 2px dashed rgb(255, 0, 191);
+    height: 98vh;
+    background-image: url("/html-css-master/exercicios/modulo-03/ex022/imagens/pattern001.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
