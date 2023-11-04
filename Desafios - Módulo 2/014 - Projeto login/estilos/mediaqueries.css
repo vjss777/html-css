@@ -10,16 +10,21 @@
     }
     body{
         background-image: linear-gradient(to bottom, #025159, #03A696, #027368, #05F2C7, #05F2AF);
+        text-align: left;
     }
     section{
-        width: 80vw;
+        width: 59.5vw;
         transition: width 0.5s, height 0.5s;
         transition-timing-function: ease;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
+    }
+    article{
+        padding-right: 30px;
+        overflow: hidden;
     }
 }
 
@@ -35,12 +40,16 @@
         background-image: linear-gradient(to bottom, #025159, #03A696, #027368, #05F2C7, #05F2AF);
     }
     section{
-        min-width: 85vw;
+        min-width: 59vw;
         transition: width 0.5s, height 0.5s;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
        }
+    article{
+        padding-right: 30px;
+        overflow: hidden;
+    }
 }
