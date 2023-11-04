@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    :root{
+        --c1:#025159;
+        --c2:#03A696;
+        --c3:#027368;
+        --c4:#05F2C7;
+        --c5:#05F2AF;
+    }
+    body{
+        background-image: linear-gradient(to bottom, #025159, #03A696, #027368, #05F2C7, #05F2AF);
+    }
+    section{
+        width: 80vw;
+        transition: width 0.5s, height 0.5s;
+        transition-timing-function: ease;
+    }
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    :root{
+        --c1:#025159;
+        --c2:#03A696;
+        --c3:#027368;
+        --c4:#05F2C7;
+        --c5:#05F2AF;
+    }
+    body{
+        background-image: linear-gradient(to bottom, #025159, #03A696, #027368, #05F2C7, #05F2AF);
+    }
+    section{
+        min-width: 85vw;
+        transition: width 0.5s, height 0.5s;
+    }
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+       }
+}

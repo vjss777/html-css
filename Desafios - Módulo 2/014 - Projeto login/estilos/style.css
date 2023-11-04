@@ -20,13 +20,37 @@ body, html{
 body{
     background-color: var(--c1);
 }
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 section{
     background-color: white;
     margin: auto;
-    width: 375px;
-    height: 667px;
-
+    width: 374px;
+    height: 659px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.733);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition: width 0.5s, height 0.5s;
+        transition-timing-function: ease;
 }
 section > form{
     margin: auto;
+}
+div#imagem{
+    background: black url(../imagens/pexels-tobias-bjørkli-1674624.jpg) no-repeat fixed center top/ cover;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+form{
+    display: block;
+    padding: 10px;
+    text-align: center;
 }
