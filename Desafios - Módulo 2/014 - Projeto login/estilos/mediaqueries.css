@@ -8,6 +8,10 @@
         --c4:#05F2C7;
         --c5:#05F2AF;
     }
+    html, body{
+        width: 100vw;
+        height: 100vh;
+    }
     body{
         background-image: linear-gradient(to bottom, #025159, #03A696, #027368, #05F2C7, #05F2AF);
         text-align: left;
@@ -35,6 +39,10 @@
         --c3:#027368;
         --c4:#05F2C7;
         --c5:#05F2AF;
+    }
+    html, body{
+        width: 100vw;
+        height: 100vh;
     }
     body{
         background-image: linear-gradient(to bottom, #025159, #03A696, #027368, #05F2C7, #05F2AF);
